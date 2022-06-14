@@ -15,9 +15,9 @@ sudo pacman -S papirus-icon-theme pulseaudio-alsa upower bluez bluez-utils xorg-
 cd
 git clone --recurse-submodules https://github.com/Lisenaaaa/crylia-theme
 cd crylia-theme
-cp -r awesome ~/.config/.
-cp -r picom.conf ~/.config/.
-cp -r rofi ~/.config/.
-cp -r alacritty ~/.config/.
+ln -s ~/crylia-theme/awesome ~/.config/.
+ln -s ~/crylia-theme/picom.conf ~/.config/.
+ln -s ~/crylia-theme/rofi ~/.config/.
+ln -s ~/crylia-theme/alacritty ~/.config/.
 
 echo " ===== make sure to reboot and select awesome desktop ====== "
